@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 // Connexion to Discord API
-bot.login('NDAyMDUyODExOTc1NTU3MTIx.DTzIYg.pkrhXpPA_rq5PBdgm65Lf7Zgi-c');
+bot.login{process.env.BOT_TOKEN};
 
 // Bot connexion
 bot.on("ready", function () {
@@ -99,4 +99,3 @@ bot.on("presenceUpdate", (oldMember, newMember) => {
     }
 
 });
-client.login{process.env.BOT_TOKEN};
