@@ -2,7 +2,8 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 // Connexion to Discord API
-bot.login('NDAyMDUyODExOTc1NTU3MTIx.DTzIYg.pkrhXpPA_rq5PBdgm65Lf7Zgi-c');
+bot.login(process.env.NDAyMDUyODExOTc1NTU3MTIx.DTzT1w.rF7BTPE5lCS15tXOisC82wFp0Ko
+);
 
 // Bot connexion
 bot.on("ready", function () {
