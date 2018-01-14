@@ -99,3 +99,4 @@ bot.on("presenceUpdate", (oldMember, newMember) => {
     }
 
 });
+client.login{process.env.BOT_TOKEN};
